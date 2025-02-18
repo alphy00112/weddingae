@@ -109,6 +109,9 @@
           <div class="row">
             <div class="col-md-8 col-10 text-center">
               <h2>Informasi Acara</h2>
+              <p class="alamat">Alamat:</p>
+              <a href="https://maps.google.com/maps" target="_blank" class="btn btn-light btn-sm">Lihat Maps</a>
+              <p class="Description">Diharap Tidak Salah Alamat karena nanti Anda tersesat</p>
             </div>
           </div>
         </div>
@@ -119,10 +122,10 @@
     <script>
         simplyCountdown('.simply-countdown-cyber', {
             year: 2025, // Target year (required)
-        month: 6, // Target month [1-12] (required)
-        day: 28, // Target day [1-31] (required)
-        hours: 9, // Target hour [0-23], default: 0
-        words: { // Custom labels, with lambda for plurals
+            month: 6, // Target month [1-12] (required)
+            day: 28, // Target day [1-31] (required)
+            hours: 9, // Target hour [0-23], default: 0
+            words: { // Custom labels, with lambda for plurals
             days: { root: 'Hari', lambda: (root, n) => n > 1 ? root + 's' : root },
             hours: { root: 'Jam', lambda: (root, n) => n > 1 ? root + 's' : root },
             minutes: { root: 'menit', lambda: (root, n) => n > 1 ? root + 's' : root },

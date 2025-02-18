@@ -92,6 +92,7 @@ body {
     padding-top: 15rem;
     padding-bottom: 5rem;
     filter: grayscale();
+    z-index: -1;
 }
 
 .home h2 {
@@ -137,10 +138,14 @@ body {
     color: var(--pink);
 }
 .info {
-    background-color: var(--bg);
-    color: white;
-    padding-top: 10rem;
-    padding-bottom: 8rem;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: -6rem;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    filter: grayscale();
+    z-index: -1;
 }
 .info h2 {
     color: var(--pink);

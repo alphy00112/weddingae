@@ -91,7 +91,6 @@ body {
     margin-top: -6rem;
     padding-top: 15rem;
     padding-bottom: 5rem;
-    filter: grayscale();
 }
 
 .home h2 {
@@ -143,8 +142,6 @@ body {
     margin-top: -6rem;
     padding-top: 15rem;
     padding-bottom: 5rem;
-    filter: grayscale();
-    z-index: -1;
 }
 .info h2 {
     color: var(--pink);
